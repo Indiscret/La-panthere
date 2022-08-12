@@ -512,7 +512,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0);
     box-shadow: none;
 }
 
@@ -694,6 +694,7 @@ a {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto;
+    font-size: 19px;
 }
 .center-block , .image-resize-mode {
     height: 100px;
@@ -793,7 +794,13 @@ h4 {
 .tc-white {
     color: #fff!important;
     font-weight: normal;
-    font-size: 17px;
+}
+
+.formulaire {
+    float: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .btn-atomic-tangerine {
